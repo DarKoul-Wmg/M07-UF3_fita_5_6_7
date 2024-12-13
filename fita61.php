@@ -10,8 +10,14 @@
     <form action="fita61.php" method="post">
         <label for="countryCode">Country Code:</label>
         <input type="text" name="countryCode" id="countryCode">
+
         <label for="language">Language:</label>
         <input type="text" name="language" id="language">
+
+        <label >Es oficial:</label>
+        <input type="radio" id="oficial" name="options" value="Si">
+        <input type="radio" id="nooficial" name="options" value="No">
+
         <label for="percentage">Percentage:</label>
         <input type="text" name="percentage" id="percentage">
         <input type="submit" value="Enviar">
